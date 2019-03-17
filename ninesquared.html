@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>九宫格布局</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		html,body{
+			margin: 0;
+			padding: 0;
+		}	
+		#container{
+			width: 100vw;
+			height: 100vw;
+			margin: 0 auto;
+			display: flex;
+			flex-flow: row wrap;
+			align-content:center;
+		}
+		#container > div{
+			width: 30%;
+			height: 30%;
+			background-color: #f79c0a;
+			border-radius: 15%;
+			margin-left: 2.4%;
+			margin-top: 2.5%;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+</body>
+</html>
