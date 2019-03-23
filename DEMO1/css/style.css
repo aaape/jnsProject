@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*九宫格开始*/
+.wrap{
+    width: 100%;
+}
+.wrap div{
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: #f79c0a;
+    float: left;
+    margin: 1.6%;
+    border-radius: 15%;
+}
+.clearfix::after,
+.clearfix::before{
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+.clearfix{
+    *zoom:1;
+}
+/*九宫格结束*/
+
+.butn {
+    width: 100%;
+    height: 20%;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #f79c0a;
+    border-radius: 5%;
+    color: #f79c0a;
+    margin: 2% auto;
+    cursor: pointer;
+}
